@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: white;
+            height: 100vh;
+        }
+        .test-content {
+            text-align: center;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-content">
+        <h1>AI Chat Widget Test</h1>
+        <p>Look for the purple chat button in the bottom-right corner.</p>
+        <p>Check the browser console (F12) for debug messages.</p>
+        <button onclick="window.aiChat && window.aiChat.openChat()">Force Open Chat</button>
+    </div>
+    
+    <script src="js/ai-chat.js"></script>
+</body>
+</html>

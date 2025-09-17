@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIToolsHub - Discover, Compare & Master the Future of AI</title>
+    <meta name="description" content="The ultimate destination for AI tool reviews, comparisons, and insights. Discover cutting-edge AI tools before your competitors do.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/search-filter.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#6366f1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="AI Tools Hub">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🚀</span>
+                <span class="logo-text">AIToolsHub</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#categories" class="nav-link">Categories</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#toolbox" class="nav-link">Toolbox</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link contact-btn">Get Started</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">🔥 #1 AI Tools Discovery Platform</span>
+                </div>
+                <h1 class="hero-title">
+                    Discover AI Tools That
+                    <span class="gradient-text">Transform</span>
+                    Your Workflow
+                </h1>
+                <p class="hero-description">
+                    Skip the endless searching. Get curated, tested, and reviewed AI tools 
+                    that actually deliver results. From productivity boosters to creative 
+                    masterpieces - we've tested them all.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">
+                        <span>Explore Tools</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn-secondary">
+                        <i class="fas fa-play"></i>
+                        <span>Watch Demo</span>
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">AI Tools Reviewed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50K+</span>
+                        <span class="stat-label">Happy Users</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-cards">
+                    <div class="floating-card card-1">
+                        <div class="card-icon">🤖</div>
+                        <div class="card-title">GPT-4</div>
+                        <div class="card-rating">⭐ 4.9</div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-icon">🎨</div>
+                        <div class="card-title">Midjourney</div>
+                        <div class="card-rating">⭐ 4.8</div>
+                    </div>
+                    <div class="floating-card card-3">
+                        <div class="card-icon">📝</div>
+                        <div class="card-title">Jasper AI</div>
+                        <div class="card-rating">⭐ 4.7</div>
+                    </div>
+                    <div class="floating-card card-4">
+                        <div class="card-icon">🎵</div>
+                        <div class="card-title">Mubert</div>
+                        <div class="card-rating">⭐ 4.6</div>
+                    </div>
+                </div>
+                <div class="hero-sphere"></div>
+            </div>
+        </div>
+        <div class="hero-bg-elements">
+            <div class="bg-sphere sphere-1"></div>
+            <div class="bg-sphere sphere-2"></div>
+            <div class="bg-sphere sphere-3"></div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Every AI Tool Category,
+                    <span class="gradient-text">Perfectly Organized</span>
+                </h2>
+                <p class="section-description">
+                    Browse through our carefully curated categories and find exactly what you need
+                </p>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card" data-category="productivity">
+                    <div class="category-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="category-title">Productivity</h3>
+                    <p class="category-description">Boost your efficiency with AI-powered productivity tools</p>
+                    <div class="category-stats">
+                        <span class="tool-count">120+ tools</span>
+                        <span class="rating">4.8 ⭐</span>
+                    </div>
+                    <div class="category-overlay">
+                        <button class="explore-btn">Explore Category</button>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="creative">
+                    <div class="category-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="category-title">Creative & Design</h3>
+                    <p class="category-description">Unleash your creativity with AI art and design tools</p>
+                    <div class="category-stats">
+                        <span class="tool-count">85+ tools</span>
+                        <span class="rating">4.9 ⭐</span>
+                    </div>
+                    <div class="category-overlay">
+                        <button class="explore-btn">Explore Category</button>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="writing">
+                    <div class="category-icon">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3 class="category-title">Writing & Content</h3>
+                    <p class="category-description">Create compelling content with AI writing assistants</p>
+                    <div class="category-stats">
+                        <span class="tool-count">95+ tools</span>
+                        <span class="rating">4.7 ⭐</span>
+                    </div>
+                    <div class="category-overlay">
+                        <button class="explore-btn">Explore Category</button>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="development">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="category-title">Development</h3>
+                    <p class="category-description">Code faster and smarter with AI development tools</p>
+                    <div class="category-stats">
+                        <span class="tool-count">70+ tools</span>
+                        <span class="rating">4.8 ⭐</span>
+                    </div>
+                    <div class="category-overlay">
+                        <button class="explore-btn">Explore Category</button>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="business">
+                    <div class="category-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="category-title">Business & Analytics</h3>
+                    <p class="category-description">Make data-driven decisions with AI analytics</p>
+                    <div class="category-stats">
+                        <span class="tool-count">60+ tools</span>
+                        <span class="rating">4.6 ⭐</span>
+                    </div>
+                    <div class="category-overlay">
+                        <button class="explore-btn">Explore Category</button>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="media">
+                    <div class="category-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3 class="category-title">Audio & Video</h3>
+                    <p class="category-description">Transform media content with AI editing tools</p>
+                    <div class="category-stats">
+                        <span class="tool-count">55+ tools</span>
+                        <span class="rating">4.7 ⭐</span>
+                    </div>
+                    <div class="category-overlay">
+                        <button class="explore-btn">Explore Category</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Tools Section -->
+    <section id="reviews" class="featured-tools">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Top-Rated AI Tools
+                    <span class="gradient-text">This Month</span>
+                </h2>
+                <p class="section-description">
+                    Handpicked by our experts, tested by thousands
+                </p>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card featured">
+                    <div class="tool-badge">Editor's Choice</div>
+                    <div class="tool-header">
+                        <div class="tool-logo">🚀</div>
+                        <div class="tool-info">
+                            <h3 class="tool-name">ChatGPT Plus</h3>
+                            <p class="tool-category">Conversational AI</p>
+                        </div>
+                        <div class="tool-rating">
+                            <span class="rating-score">4.9</span>
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    <p class="tool-description">
+                        The most advanced conversational AI that understands context and delivers human-like responses.
+                    </p>
+                    <div class="tool-tags">
+                        <span class="tag">Free Trial</span>
+                        <span class="tag">API Available</span>
+                        <span class="tag">Enterprise</span>
+                    </div>
+                    <div class="tool-footer">
+                        <span class="tool-price">From $20/month</span>
+                        <button class="try-btn">Try Now</button>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <div class="tool-logo">🎨</div>
+                        <div class="tool-info">
+                            <h3 class="tool-name">Midjourney V6</h3>
+                            <p class="tool-category">AI Art Generator</p>
+                        </div>
+                        <div class="tool-rating">
+                            <span class="rating-score">4.8</span>
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    <p class="tool-description">
+                        Create stunning, photorealistic images from text descriptions in seconds.
+                    </p>
+                    <div class="tool-tags">
+                        <span class="tag">Discord Bot</span>
+                        <span class="tag">Commercial Use</span>
+                    </div>
+                    <div class="tool-footer">
+                        <span class="tool-price">From $10/month</span>
+                        <button class="try-btn">Try Now</button>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <div class="tool-logo">📝</div>
+                        <div class="tool-info">
+                            <h3 class="tool-name">Notion AI</h3>
+                            <p class="tool-category">Writing Assistant</p>
+                        </div>
+                        <div class="tool-rating">
+                            <span class="rating-score">4.7</span>
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    <p class="tool-description">
+                        Transform your notes and documents with AI-powered writing and editing.
+                    </p>
+                    <div class="tool-tags">
+                        <span class="tag">Workspace</span>
+                        <span class="tag">Collaboration</span>
+                    </div>
+                    <div class="tool-footer">
+                        <span class="tool-price">From $8/month</span>
+                        <button class="try-btn">Try Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Toolbox Section -->
+    <section id="toolbox" class="toolbox">
+        <div class="container">
+            <div class="toolbox-content">
+                <div class="toolbox-text">
+                    <h2 class="section-title">
+                        Your Personal
+                        <span class="gradient-text">AI Toolbox</span>
+                    </h2>
+                    <p class="section-description">
+                        Build your custom collection of AI tools. Save favorites, compare options, 
+                        and get personalized recommendations based on your workflow.
+                    </p>
+                    <div class="toolbox-features">
+                        <div class="feature">
+                            <div class="feature-icon">💾</div>
+                            <div class="feature-text">
+                                <h4>Save & Organize</h4>
+                                <p>Create custom lists and organize tools by project or category</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">📊</div>
+                            <div class="feature-text">
+                                <h4>Compare Side-by-Side</h4>
+                                <p>Compare features, pricing, and performance metrics</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🎯</div>
+                            <div class="feature-text">
+                                <h4>Smart Recommendations</h4>
+                                <p>Get AI-powered suggestions based on your preferences</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-primary">
+                        <span>Create Your Toolbox</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="toolbox-visual">
+                    <div class="toolbox-dashboard">
+                        <div class="dashboard-header">
+                            <h3>My AI Toolbox</h3>
+                            <span class="tool-count">12 tools</span>
+                        </div>
+                        <div class="dashboard-tools">
+                            <div class="mini-tool">
+                                <span class="mini-icon">🤖</span>
+                                <span class="mini-name">ChatGPT</span>
+                                <span class="mini-status">Active</span>
+                            </div>
+                            <div class="mini-tool">
+                                <span class="mini-icon">🎨</span>
+                                <span class="mini-name">Midjourney</span>
+                                <span class="mini-status">Active</span>
+                            </div>
+                            <div class="mini-tool">
+                                <span class="mini-icon">📝</span>
+                                <span class="mini-name">Jasper</span>
+                                <span class="mini-status">Trial</span>
+                            </div>
+                            <div class="mini-tool">
+                                <span class="mini-icon">🔧</span>
+                                <span class="mini-name">GitHub Copilot</span>
+                                <span class="mini-status">Active</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2 class="newsletter-title">
+                        Stay Ahead of the AI Curve
+                    </h2>
+                    <p class="newsletter-description">
+                        Get weekly insights on the latest AI tools, exclusive reviews, 
+                        and early access to game-changing technology.
+                    </p>
+                </div>
+                <div class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Enter your email address" class="email-input">
+                        <button class="subscribe-btn">
+                            <span>Subscribe</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <p class="newsletter-note">
+                        <i class="fas fa-shield-alt"></i>
+                        No spam, unsubscribe anytime. 50,000+ subscribers trust us.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🚀</span>
+                        <span class="logo-text">AIToolsHub</span>
+                    </div>
+                    <p class="footer-description">
+                        Your trusted source for AI tool reviews, comparisons, and insights. 
+                        Discover the future of technology today.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4 class="link-title">Explore</h4>
+                        <ul class="link-list">
+                            <li><a href="#" class="footer-link">All Categories</a></li>
+                            <li><a href="#" class="footer-link">Top Rated</a></li>
+                            <li><a href="#" class="footer-link">New Tools</a></li>
+                            <li><a href="#" class="footer-link">Free Tools</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4 class="link-title">Resources</h4>
+                        <ul class="link-list">
+                            <li><a href="#" class="footer-link">AI Guide</a></li>
+                            <li><a href="#" class="footer-link">Blog</a></li>
+                            <li><a href="#" class="footer-link">Tutorials</a></li>
+                            <li><a href="#" class="footer-link">Changelog</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4 class="link-title">Company</h4>
+                        <ul class="link-list">
+                            <li><a href="#" class="footer-link">About Us</a></li>
+                            <li><a href="#" class="footer-link">Contact</a></li>
+                            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                            <li><a href="#" class="footer-link">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">
+                    © 2024 AIToolsHub. All rights reserved. Built with ❤️ for the AI community.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/search-filter.js"></script>
+    <script src="js/ai-chat.js"></script>
+</body>
+</html>
